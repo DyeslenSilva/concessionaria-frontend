@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+	
+	<link rel="stylesheet" href="css/background.css">
+	
+	
+  <title>Lista de Vendas</title>
+  
+  <div style="overflow: hidden;height: 250px;"> <!-- For Demo, Represents the body -->
+
+<nav class="demo">
+  <a href="#" class="brand">
+    <span>Concessionaria Innovation</span>
+  </a>
+
+  <!-- responsive-->
+  <input id="bmenub" type="checkbox" class="show">
+  <label for="bmenub" class="burger pseudo button">menu</label>
+
+  <div class="menu">
+    <a href="#" class="button icon-picture">Login</a>
+    <a href="#" class="button icon-puzzle">Cadastre-se</a>
+	<a href="#" class="button icon-puzzle">Funcionarios</a>
+	<a href="#" class="button icon-puzzle">Vendas</a>
+	<a href="#" class="button icon-puzzle">Algueis</a>
+  </div>
+</nav>
+
+</div>
+  
+</head>
+	<body>
+		<button>Listar Vendas</button>
+		
+		<table class="primary">
+  <thead>
+    <tr>
+      <th>Id Venda</th>
+      <th>Descrição da Venda</th>
+	  <th>Modelo do Carro</th>
+	  <th>Valor da Venda</th>
+	  <th>Parcelas</th>
+	  <th>Valor da Parcela - Sem Entrada</th>
+	  <th>Entrada</th>
+	  <th>Valor da Entrada</th>
+	  <th>Valor da Venda - Apos Entrada</th>
+	  <th>Valor da Parcela - Com Entrada</th>
+	  <th>Chassi</th>
+	  <th>Nome do Cliente</th>
+	  <th>Endereco</th>
+	  <th>RG</th>
+	  <th>CPF</th>
+	  <th>Editar</th>
+	  <th>Apagar</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+  <tr>
+	<td>38493</td>
+	<td>
+		Venda de um carro novo modelo Siena da Marca
+		Fiat, ano 2020, realizada no dia 23/02/2021
+	</td>
+	<td>Siena - 2020</td>
+	<td>R$45.990,00</td>
+	<td>60</td>
+	<td>R$766,50</td>
+	<td>R$4599,00</td>
+	<td>R$41.391,00</td>
+	<td>R$689,85</td>
+	<td>9 BF DF638E 9 B483FD</td>
+	<td>Celso Vieira de Sousa</td>
+	<td>21.939.738-0</td>
+	<td>334.746.923-09</td>
+	<td>
+		<button>Editar</button>
+	  </td>
+	  <td>
+		<button class='error'>Apagar</button>
+	  </td>
+	  
+    </tr>
+	
+	<tr>
+		<td>56839</td>
+		<td>
+			Venda de um carro novo novo modelo Fox
+			da marca Volkswagem, ano 2020, realizada
+			no dia 20/02/2021
+		</td>
+		<td>Fox - 2020</td>
+		<td>R$37.500,00</td>
+		<td>60</td>
+		<td>R$625.00</td>
+		<td>R$3.750,00</td>
+		<td>R$33.750,00</td>
+		<td>R$562,50</td>
+		<td>6 BV SJ632R 8 G738V</td>
+		<td>Gabriel Medeiros de Souza</td>
+		<td>34.973.543-0</td>
+		<td>554.636.036-26</td>
+		<td>
+			<button>Editar</button>
+		</td>
+	  <td>
+		<button class='error'>Apagar</button>
+	  </td>
+	</tr>
+	
+	<tr>
+		<td>48593</td>
+		<td>Venda de um carro novo modelo Meriva
+		da marca Chevrolet, ano 2020 realizada
+		no dia 18/02/2021</td>
+		<td>Meriva - 2020</td>
+		<td>R$42.500,00</td>
+		<td>72</td>
+		<td>R$590,28</td>
+		<td>R$4.250,00</td>
+		<td>R$38.250,00</td>
+		<td>R$531,25</td>
+		<td>Fabio da Silva Santos</td>
+		<td>4 BC GF786F 6 T72G5</td>
+		<td>54.387.372-93</td>
+		<td>446.843.743-09</td>
+		<td>
+			<button>Editar</button>
+		</td>
+	  <td>
+		<button class='error'>Apagar</button>
+	  </td>
+	</tr>
+	
+  </tbody>
+</table>
+		
+	</body>
+</html>
