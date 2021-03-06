@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+	
+	<link rel="stylesheet" href="css/background.css">
+	
+	
+  <title>Lisra de Funcionarios</title>
+  
+  <div style="overflow: hidden;height: 250px;"> <!-- For Demo, Represents the body -->
+
+<nav class="demo">
+  <a href="#" class="brand">
+    <span>Concessionaria Innovation</span>
+  </a>
+
+  <!-- responsive-->
+  <input id="bmenub" type="checkbox" class="show">
+  <label for="bmenub" class="burger pseudo button">menu</label>
+
+  <div class="menu">
+    <a href="#" class="button icon-picture">Login</a>
+    <a href="#" class="button icon-puzzle">Cadastre-se</a>
+	<a href="#" class="button icon-puzzle">Funcionarios</a>
+	<a href="#" class="button icon-puzzle">Vendas</a>
+	<a href="#" class="button icon-puzzle">Algueis</a>
+  </div>
+</nav>
+
+</div>
+  
+</head>
+	<body>
+		<button>Listar Funcionarios</button>
+		
+		<table>
+			<thead>
+				<tr>
+				
+					<th>Id Funcionario</th>
+					<th>Nome do Funcionario</th>
+					<th>RG</th>
+					<th>CPF</th>
+					<th>Endereco</th>
+					<th>Cidade</th>
+					<th>Estado</th>
+					<th>Telefone</th>
+					<th>Status</th>
+					<th>Editar</th>
+					<th>Apagar</th>
+				</tr>	
+			</thead>
+			<tbody>
+				<tr>
+					<td>3892</td>
+					<td>Adilson Garcia da Silva</td>
+					<td>52.371.289-0</td>
+					<td>485.832.309-09</td>
+					<td>Av Goias, 920</td>
+					<td>Sorocaba</td>
+					<td>SP</td>
+					<td>(15)97639-2732</td>
+					<td>Ativado</td>
+					<td><button>Editar</button></td>
+					<td><button class='error'>Apagar</button></td>
+				</tr>
+				<tr>
+					<td>7392</td>
+					<td>Gabriel Medeiros de Souza</td>
+					<td>45.938.983-0</td>
+					<td>549.034.232-02</td>
+					<td>Av dos Estados, 372</td>
+					<td>Ribeirao Preto</td>
+					<td>SP</td>
+					<td>(16)98392-3877</td>
+					<td>Desativado</td>
+					<td><button>Editar</button></td>
+					<td><button class='error'>Apagar</button></td>
+				</tr>
+				<tr>
+					<td>4832</td>
+					<td>Tales Martins de Souza</td>
+					<td>43.489.389-0</td>
+					<td>543.932.128-03</td>
+					<td>Rua das Estradas,290</td>
+					<td>Maringá</td>
+					<td>PR</td>
+					<td>(44)93789-0553</td>
+					<td>Ativado</td>
+					<td><button>Editar</button></td>
+					<td><button class='error'>Apagar</button></td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
